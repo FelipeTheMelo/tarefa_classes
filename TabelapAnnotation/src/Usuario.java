@@ -1,9 +1,9 @@
-@Tabela("usuario")
+// Classe Usuario com a annotation @Tabela
 public class Usuario {
     private String nome;
     private String email;
 
-    // Getters e setters
+    // Getters e Setters
     public String getNome() {
         return nome;
     }
@@ -20,3 +20,5 @@ public class Usuario {
         this.email = email;
     }
 }
+
+
